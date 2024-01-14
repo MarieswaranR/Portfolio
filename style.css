@@ -5,6 +5,36 @@
     font-size: border-box;
 }
 body{
-    background: #080808;
+    background: hsl(0, 3%, 8%);
     color: #fff;
+}
+
+.home-png img{
+    /*float: right;
+    display: block;
+    margin-right: 10px 20px; */  
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    pointer-events: none;
+    max-width: 480px;
+    max-height: 100vh; 
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
 }
